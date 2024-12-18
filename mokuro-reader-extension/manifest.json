@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "mokuro-modified",
+    "version": "1.0",
+    "description": "extension for reader.mokuro.app",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://reader.mokuro.app/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
